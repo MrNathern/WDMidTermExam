@@ -1,0 +1,59 @@
+
+nav{
+    height: 80px;
+    width: 100%;
+    background: white;
+    box-shadow: 8px 8px;
+    border-bottom: 2px solid;
+    border-color: black;
+    margin-bottom: 20px;
+    position: fixed;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li{
+    background: white;
+}
+
+a{
+    background: white;
+}
+
+ul{
+    background: white;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+p{
+    margin-bottom: 20px;
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 800px) {
+    *{
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 801px){
+    *{
+        background-color: green;
+    }
+}
+
+img{
+    margin: 50px;
+    height: 200px;
+    display: flex;
+    flex-shrink: inherit;
+    flex-direction: row;
+
+}
